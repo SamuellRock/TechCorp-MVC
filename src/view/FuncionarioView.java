@@ -93,8 +93,13 @@ public class FuncionarioView {
     }
 
     private void listarFuncionarios() {
-        controller.listarFuncionarios().forEach(f -> System.out.println(f.mostrarDetalhes()));
+        if (controller.listarFuncionarios().isEmpty()) {
+            System.out.println("Lista de Funcionários Vazia...");
+        } else {
+            controller.listarFuncionarios().forEach(f -> System.out.println(f.mostrarDetalhes()));
+        }
     }
+    
 
     private void atualizarFuncionario() {
         System.out.print("ID do funcionário: ");
