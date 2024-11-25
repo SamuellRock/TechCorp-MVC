@@ -1,0 +1,4 @@
+101;Desenvolvedor;Samuel Elias;2400.0
+202;Gerente;Bernardo Cezar;5500.0
+303;Treinador;Ana Thalita;4630.0
+102;Desenvolvedor;Pedro Vinicius;3000.0
